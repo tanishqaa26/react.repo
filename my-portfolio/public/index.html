@@ -5,39 +5,111 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <title> My Portfolio</title>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tanishqa Soni</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Me</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+   
+  <section>
+      
+  <header>
+      <h1 style="color: blueviolet;"> Welcome to my Portfolio</h1>
+      <p style="font-style: italic;"></p>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      <nav>
+         
+      </nav>
+  </header>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+  </section>
+
+
+  <section id="about">
+      <h2>About Me</h2>
+      <img src="C:\Users\HP\Pictures\Camera Roll\WIN_20240825_13_55_13_Pro.jpg" , alt="Tanishqa">
+      <p> Persistent problem-solver, turning challenges into triumphs, one line of code at a time.</p>
+  </section>
+  <section id="project">
+      <h2>Projects</h2>
+      <ul>
+          <li><h3>Project 1- Calculator using Python</h3><p>Created a basic calculator using python that can do multiple operations
+              toegther from the input given by the user. </p></li>
+          <li><h3>Project 2- To-Do App using Python</h3><p>An app that can add, list, delete and mark tasks as resolved according to the
+              user's need. </p></li>
+          <li><h3>Project-3 Animal Avenue</h3><p>A web-application created by using React.js and machine learning to make lives of furry friends easier. By using animal avenue, the user can find vets nearby, buy animal products, donate for animal shelters and apply for adoption. </p></li>
+          <li><h3> Project-4 Nirog Bharat - A Virtal Hospital</h3><p>A mobile app created using flutter and machine learning for people to easily get hands on best doctor advices and do video chat for urgent consultations.
+              <br>
+              Frontend: Flutter
+              <br>
+              Backend: Node.js
+              <br>
+              Database- MongoDB, Hosted on Azure </p></li>
+      </ul>
+  </section>
+  <section id="contact">
+      <h2>Contact</h2>
+      <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
+        </div>
+
+      <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+       
+
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Comments</label>
+        </div>
+
+
+
+<!-- 
+      <form> 
+          <label for="name">Name</label>
+          <input type="text" name="" placeholder="" required="true">
+          <label for="email">Email</label>
+          <input type="email" name="" placeholder="" required="true">
+          <label for="message">Message</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <button><input type="submit" value="Submit"> </button>
+  
+      </form> -->
+  </section>
+ 
+
   </body>
 </html>
