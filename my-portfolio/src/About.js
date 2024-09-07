@@ -6,7 +6,9 @@ const About = () => {
             <header>
                 <h2>About Me</h2>
                 <p>Persistent problem-solver, turning challenges into triumphs, one line of code at a time.</p>
+                <img src= "C:\Users\HP\Desktop\Portfolio\react.repo\my-portfolio\public\WIN_20240825_13_55_52_Pro.jpg" alt="Ts" />
             </header>
+            
             <section id="Projects">
                 <h2>Projects</h2>
                 <ul>
